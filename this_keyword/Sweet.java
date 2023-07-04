@@ -13,8 +13,8 @@ class Sweet{
 	}
 	Sweet(String name , int sPrice , float quantity){
 			System.out.println("running with string,int,float arguements :");
-                name = this.name;
+                this.name = name;
 				price= sPrice;
-				quantity= this.quantity;
+				this.quantity= quantity;
 	}
 }
