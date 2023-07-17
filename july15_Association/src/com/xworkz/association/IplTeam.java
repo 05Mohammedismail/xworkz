@@ -25,11 +25,14 @@ public class IplTeam {
 			System.out.println("");
 			team1.fr1.printInfo();
 			
+			
 			System.out.println("* * * * * * * * * * * * * * *");
 			
 			team2.printInfo();		
 			System.out.println("");
 			team2.fr2.printInfo();
+
+			
 
 			
 	}
@@ -48,6 +51,7 @@ public class IplTeam {
 		System.out.println("Ipl team name : " + name);
 		System.out.println("Jersey Color team : " + jerseyColor);
 		System.out.println("No of Forein players in Ipl team : " + foreignPlayers);
+		
 
 	}
 
