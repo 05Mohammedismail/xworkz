@@ -14,6 +14,9 @@ public class AllRunner {
 		
 			Finance finance = new Finance();
 			finance.toString();
+			
+			System.out.println(obj1);
+
 			 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 		
 		//Ladoo extends Object
@@ -22,6 +25,8 @@ public class AllRunner {
 				
 			Ladoo ladoo = new Ladoo();
 			ladoo.toString();
+			
+			System.out.println(obj2);
 			 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 						
 		//Lake extends Object
@@ -30,6 +35,8 @@ public class AllRunner {
 				
 				Lake lake = new Lake();
 				lake.toString();
+				
+				System.out.println(obj3);
 				 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 				
 		//Lotus extends Object
@@ -38,6 +45,8 @@ public class AllRunner {
 				
 				Lotus lotus = new Lotus();
 				lotus.toString();
+				
+				System.out.println(obj4);
 				 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 				
 		//MLA extends Object
@@ -46,6 +55,8 @@ public class AllRunner {
 				
 				MLA mla = new MLA();
 				mla.toString();
+				
+				System.out.println(obj5);
 				 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 				
 		//Money extends Object
@@ -54,6 +65,8 @@ public class AllRunner {
 				
 				Money money = new Money();
 				money.toString();
+				
+				System.out.println(obj6);
 				 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 				
 		//President extends Object
@@ -62,6 +75,8 @@ public class AllRunner {
 				
 				President president = new President();
 				president.toString();
+				
+				System.out.println(obj7);
 				 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 				
 		//PrimeMinister extends Object
@@ -70,6 +85,8 @@ public class AllRunner {
 				
 				PrimeMinister pm = new PrimeMinister();
 				pm.toString();
+				
+				System.out.println(obj8);
 				 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 				
 		//River extends Object
@@ -78,6 +95,8 @@ public class AllRunner {
 				
 				River river = new River();
 				river.toString();
+				
+				System.out.println(obj9);
 				 System.out.println("* * * * * * * * * * * * * * * * * * * *");
 				
 		//Security extends Object
@@ -86,6 +105,9 @@ public class AllRunner {
 				
 				Security security = new Security();
 				security.toString();
+				
+				System.out.println(obj10);
+
 	}
 
 }
