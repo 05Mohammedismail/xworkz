@@ -8,6 +8,22 @@ public class NewsPaper {
 	private double price;
 	private double dispatchTime;
 	
+	public double getDispatchTime() {
+		return dispatchTime;
+	}
+	public String getFactoryName() {
+		return factoryName;
+	}
+	public String getName() {
+		return name;
+	}
+	public String getOwnerName() {
+		return ownerName;
+	}
+	public double getPrice() {
+		return price;
+	}
+	
 	public void setNewsPaper(String name, String factoryName, String ownerName, double price, double dispatchTime)
 	{
 		this.dispatchTime = dispatchTime;

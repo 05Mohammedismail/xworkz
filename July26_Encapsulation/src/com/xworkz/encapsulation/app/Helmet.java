@@ -8,6 +8,23 @@ public class Helmet {
 	private double onlinePrice;
 	private String color;
 	
+	public String getBrand() {
+		return brand;
+	}
+	public String getColor() {
+		return color;
+	} 
+	public double getOfflinePrice() {
+		return offlinePrice;
+	} 
+	
+	public double getOnlinePrice() {
+		return onlinePrice;
+	}
+	public double getWeight() {
+		return weight;
+	}
+	
 	public void setHelmet(String brand,  double weight, double offlinePrice, double onlinePrice, String color) 
 	{
 		this.brand = brand;

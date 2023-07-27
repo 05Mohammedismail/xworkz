@@ -8,6 +8,20 @@ public class Calculator {
 	private String type;
 	private String color;
 	
+	public String getBrandName() {
+		return brandName;
+	}public String getColor() {
+		return color;
+	}
+	public String getModelName() {
+		return modelName;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public String getType() {
+		return type;
+	}
 	
 	public void setCalculator(String brandName, double price, String modelName, String type, String color)
 	{

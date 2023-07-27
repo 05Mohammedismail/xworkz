@@ -8,6 +8,22 @@ public class Grinder {
 	private String type;
 	private String color;
 	
+	public String getBrandName() {
+		return brandName;
+	}
+	public String getColor() {
+		return color;
+	}
+	public String getModel() {
+		return model;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public String getType() {
+		return type;
+	}
+	
 	public void setGrinder(String brandName, String model, double price, String type, String color) 
 	{
 		this.brandName = brandName;

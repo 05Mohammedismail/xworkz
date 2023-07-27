@@ -8,6 +8,23 @@ public class Satellite {
 	private String launchPlace;
 	private String launchDate;
 	
+	
+	public String getName() {
+		return name;
+	}
+	public long getBudget() {
+		return budget;
+	}
+	public String getMission() {
+		return mission;
+	}
+	public String getLaunchPlace() {
+		return launchPlace;
+	}
+	public String getLaunchDate() {
+		return launchDate;
+	}
+	
 	public void setBudget(long budget) 
 	{
 		this.budget = budget;
