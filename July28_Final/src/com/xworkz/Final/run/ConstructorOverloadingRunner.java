@@ -1,6 +1,6 @@
 package com.xworkz.Final.run;
 
-import com.xworkz.Final.app.Shirt;
+import com.xworkz.Final.app.constrOverloading.Shirt;
 
 public class ConstructorOverloadingRunner {
 

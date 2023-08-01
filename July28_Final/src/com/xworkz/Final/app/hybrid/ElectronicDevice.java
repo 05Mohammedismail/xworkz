@@ -1,4 +1,4 @@
-package com.xworkz.Final.app;
+package com.xworkz.Final.app.hybrid;
 
 public class ElectronicDevice extends Device{
 

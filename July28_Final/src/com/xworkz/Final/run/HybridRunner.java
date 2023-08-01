@@ -1,7 +1,7 @@
 package com.xworkz.Final.run;
 
-import com.xworkz.Final.app.ElectricalDevice;
-import com.xworkz.Final.app.Mobile;
+import com.xworkz.Final.app.hybrid.ElectricalDevice;
+import com.xworkz.Final.app.hybrid.Mobile;
 
 public class HybridRunner {
 

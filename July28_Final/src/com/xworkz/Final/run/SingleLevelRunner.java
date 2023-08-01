@@ -1,6 +1,6 @@
 package com.xworkz.Final.run;
 
-import com.xworkz.Final.app.Player;
+import com.xworkz.Final.app.single.Player;
 
 public class SingleLevelRunner {
 

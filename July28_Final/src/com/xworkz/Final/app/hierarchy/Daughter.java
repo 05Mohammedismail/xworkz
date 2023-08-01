@@ -1,4 +1,4 @@
-package com.xworkz.Final.app;
+package com.xworkz.Final.app.hierarchy;
 
 public class Daughter extends Parent {
 	private String DaughterName;

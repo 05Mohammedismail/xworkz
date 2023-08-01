@@ -1,8 +1,8 @@
 package com.xworkz.Final.run;
 
-import com.xworkz.Final.app.Daughter;
-import com.xworkz.Final.app.Parent;
-import com.xworkz.Final.app.Son;
+import com.xworkz.Final.app.hierarchy.Daughter;
+import com.xworkz.Final.app.hierarchy.Parent;
+import com.xworkz.Final.app.hierarchy.Son;
 
 public class HierarchyRunner {
 
