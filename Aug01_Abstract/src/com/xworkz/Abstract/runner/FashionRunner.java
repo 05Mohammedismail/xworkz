@@ -1,4 +1,4 @@
-package com.xworkz.Abstract;
+package com.xworkz.Abstract.runner;
 
 import com.xworkz.Abstract.abstractClasses.Fashion;
 import com.xworkz.Abstract.implementations.Fashion.Lehenga;
