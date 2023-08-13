@@ -7,4 +7,6 @@ public interface ApartmentRepository {
 	void save(String name);
 	
 	void display();
+	
+	
 }

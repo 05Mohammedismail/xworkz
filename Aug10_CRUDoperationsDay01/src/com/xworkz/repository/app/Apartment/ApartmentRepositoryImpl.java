@@ -5,13 +5,15 @@ public class ApartmentRepositoryImpl implements ApartmentRepository{
 	private String[] names = new String[Total_COUNT];
 
 	private int index = 0;
+	
+	private int value = 0;
 
 	@Override
 	public void save(String name) {
 		if(index < Total_COUNT) {
 			this.names[index] = name;
 			System.out.println("Name saved at index " + index + " is " + name);
-			index = index + 1;
+			index++;
 			System.out.println("Updated index is " + index);
 			
 		}
@@ -27,7 +29,6 @@ public class ApartmentRepositoryImpl implements ApartmentRepository{
 		}
 		
 	}
-	
-	
+
 	
 }

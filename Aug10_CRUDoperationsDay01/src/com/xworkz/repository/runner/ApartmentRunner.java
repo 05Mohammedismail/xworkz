@@ -12,13 +12,12 @@ public class ApartmentRunner {
 		repository.save("Nice Homes");
 		repository.save("Royal Homes");
 		repository.save("Simple Homes");
-		repository.save("Palace Homes");
 		repository.save("Ideal Homes");
+		repository.save("Ideal Homes wonder");
 		
 		System.out.println("*******************************");
 		
 		repository.display();
-
 
 	}
 
