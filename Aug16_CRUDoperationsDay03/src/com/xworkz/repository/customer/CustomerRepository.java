@@ -1,10 +1,20 @@
-package com.xworkz.dto.app.repository.customer;
+package com.xworkz.repository.customer;
 
-import com.xworkz.dto.app.CustomerDTO;
+import com.xworkz.app.dto.CustomerDTO;
 
 public interface CustomerRepository {
 
 	 int TOTAL_COUNT = 5;
 	
-	void save(CustomerDTO dto);
+	 public void save(CustomerDTO dto);
+	
+	public CustomerDTO findByName(String name);
+	
+	public CustomerDTO findByMailId(String mailId);
+	
+	public CustomerDTO findByPhoneNumber(long num);
+	
+	public CustomerDTO[] readAll();
+ 	
+	
 }

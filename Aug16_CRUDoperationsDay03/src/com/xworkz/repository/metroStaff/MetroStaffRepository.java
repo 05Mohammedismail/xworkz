@@ -1,10 +1,16 @@
-package com.xworkz.dto.app.repository.metroStaff;
+package com.xworkz.repository.metroStaff;
 
-import com.xworkz.dto.app.MetroStaffDTO;
+import com.xworkz.app.dto.MetroStaffDTO;
 
 public interface MetroStaffRepository {
 
 	int TOTAL_COUNT = 5;
 	
-	void save(MetroStaffDTO dto);
-}
+	public void save(MetroStaffDTO dto);
+	
+	public MetroStaffDTO findByMetroStationName(String name);
+	
+	public MetroStaffDTO findByNumberOfEmployees(int num);
+	
+	public MetroStaffDTO[] readAll();
+ }

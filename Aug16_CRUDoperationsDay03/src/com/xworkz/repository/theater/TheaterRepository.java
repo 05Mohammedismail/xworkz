@@ -1,10 +1,17 @@
-package com.xworkz.dto.app.repository.theater;
+package com.xworkz.repository.theater;
 
-import com.xworkz.dto.app.TheaterDTO;
+import com.xworkz.app.dto.TheaterDTO;
 
 public interface TheaterRepository {
 
 	int TOTAL_COUNT = 5; 
 	
-	void save(TheaterDTO dto);
+	public void save(TheaterDTO dto);
+	
+	public TheaterDTO findByMovieName(String name);
+	
+	public TheaterDTO findByTicketPrice(int price);
+	
+	public TheaterDTO[] readAll();
+			
 }

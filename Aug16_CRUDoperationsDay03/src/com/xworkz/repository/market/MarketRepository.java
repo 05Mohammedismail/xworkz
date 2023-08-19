@@ -1,12 +1,19 @@
-package com.xworkz.dto.app.repository.market;
+package com.xworkz.repository.market;
 
-import com.xworkz.dto.app.MarketDTO;
+import com.xworkz.app.dto.MarketDTO;
 
 public interface MarketRepository {
 	
 	int TOTAL_LIMIT = 5;
 	
-	void save(MarketDTO dto);
+	public void save(MarketDTO dto);
 	
+	public MarketDTO findByNoOfShops(int num);
+	
+	public MarketDTO findByMarketType(String type);
+	
+	public MarketDTO findByAddress(String address);
+	
+	public MarketDTO[] readAll();
 
 }
