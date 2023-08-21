@@ -3,7 +3,7 @@ package com.workz.util.validate;
 public class ValidateUtil {
 	
 	public static boolean validateString(String str) {
-		if(str!=null && !str.isEmpty() && str.length()>3 && str.length()<30){
+		if(str!=null && !str.isEmpty() && str.length()>=3 && str.length()<=30){
 			return true;
 		}
 		else {
