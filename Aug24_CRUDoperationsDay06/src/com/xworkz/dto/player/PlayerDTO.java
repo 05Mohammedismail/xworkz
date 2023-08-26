@@ -1,4 +1,4 @@
-package com.xworks.dto.player;
+package com.xworkz.dto.player;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
-package com.xworks.repository.player;
+package com.xworkz.repository.player;
 
-import com.xworks.dto.player.PlayerDTO;
+import com.xworkz.dto.player.PlayerDTO;
 
 public interface PlayerRepository {
 	

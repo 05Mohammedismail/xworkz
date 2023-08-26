@@ -1,8 +1,8 @@
-package com.xworks.runner.player;
+package com.xworkz.runner.player;
 
-import com.xworks.dto.player.PlayerDTO;
-import com.xworks.repository.player.PlayerRepository;
-import com.xworks.repository.player.PlayerRepositoryImpl;
+import com.xworkz.dto.player.PlayerDTO;
+import com.xworkz.repository.player.PlayerRepository;
+import com.xworkz.repository.player.PlayerRepositoryImpl;
 
 public class PlayerRunner {
 
