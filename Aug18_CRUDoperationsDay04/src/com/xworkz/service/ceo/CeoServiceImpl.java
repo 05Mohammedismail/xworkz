@@ -2,9 +2,10 @@ package com.xworkz.service.ceo;
 
 import com.xworkz.app.dto.CeoDTO;
 
+
 public class CeoServiceImpl  implements CeoService{
 
-	@Override
+	
 	public void saveAndValidate(CeoDTO dto) {
 		if(dto!=null) {
 			String name = dto.getName();

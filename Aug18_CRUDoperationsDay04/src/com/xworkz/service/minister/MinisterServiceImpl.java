@@ -27,7 +27,7 @@ public class MinisterServiceImpl  implements MinisterService
 				 System.err.println("Experience is :'" + experience + "' it is invalid" );
 			 }
 			 
-			 if(designation!=null && !designation.isEmpty() && designation.length()>1 && designation.length()<100) {
+			 if(designation!=null && !designation.isEmpty() && designation.length()>3 && designation.length()<100) {
 					System.out.println("Designation is :'" + designation + "' it is valid");
 				}
 				else {
