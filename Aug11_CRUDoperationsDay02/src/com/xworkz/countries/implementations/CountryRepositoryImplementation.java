@@ -27,8 +27,7 @@ public class CountryRepositoryImplementation  implements CountryRepository{
 	@Override
 	public boolean isExist(String name) {
 		for (int index = 0; index < allNames.length; index++) {
-			String ref = allNames[index];
-			if(ref.equalsIgnoreCase(name)) {
+			if(allNames[index].equalsIgnoreCase(name)) {
 				System.out.println("Name checked is: " + name);
 				return true;
 			}
