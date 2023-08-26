@@ -24,10 +24,10 @@ public class PlayerRepositoryImpl implements PlayerRepository {
 	public boolean isExist(PlayerDTO dto) {
 		for(int pos=0; pos<dtos.length; pos++) {
 			PlayerDTO temp = dtos[pos];
-			if(temp!=null) {
-				System.out.println("Checking if the data is already exists...");
+			if(temp!=null  ) {
+				System.out.println("Checking if the data is already exists at index :" + pos );
 				if(temp.getName().equals(dto.getName()) && temp.getAge() == dto.getAge() && temp.getNationality().equals(dto.getNationality())) {
-					System.err.println("Data already exists");
+					System.err.println("Data already exists, cannot save");
 					return true;
 				}
 			}
