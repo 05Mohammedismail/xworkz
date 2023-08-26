@@ -8,7 +8,7 @@ public class Battery {
 
 
 	public static void main(String[] args) {
-System.out.println("Running main in Battery");
+		System.out.println("Running main in Battery");
 		
 		Battery ref1 = new Battery("Duracel" , "Gold");
 		Battery ref2 = new Battery("EverReady" , "Red");
@@ -16,7 +16,7 @@ System.out.println("Running main in Battery");
 		ref1.setprice(15.2);
 		ref2.setprice(11.3);
 		
-		ref1.display(BatteryType.Alkaline);
+		ref1.display(BatteryType.Nickel_Cadmium);
 		System.out.println("");
 		ref2.display(BatteryType.Lithium);
 
