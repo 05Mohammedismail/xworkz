@@ -8,4 +8,8 @@ int TOTAL_COUNT=5;
 	
 	public void save(PlayerDTO dto);
 
+	public PlayerDTO findByName(String name);
+	
+	public PlayerDTO findByNameAndSport(String name, String SportName);
+
 }

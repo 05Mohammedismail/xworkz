@@ -10,7 +10,7 @@ public class MovieRunner {
 		
 		MovieDTO dto1 = new MovieDTO("KGF", "Malliakrjun", 150, 9.1);
 		
-		MovieDTO dto2 = new MovieDTO("Pushpa", "Bharath Cenemas", 0, 8.5);
+		MovieDTO dto2 = new MovieDTO("Pushpa", "Bharath Cenemas", 200, 8.5);
 		
 		MovieService movieService = new MovieServiceImpl();
 	
@@ -32,5 +32,11 @@ public class MovieRunner {
 		else {
 			System.err.println("Data being saved is :" + result2);
 		}
+		
+		System.out.println("****************************");
+		movieService.findByMovieName("kgfo");
+		
+		System.out.println("*******************************");
+		movieService.findByMovieNameAndTicketCost("pushpa", 200);
 	}
 }

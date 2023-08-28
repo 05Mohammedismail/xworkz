@@ -8,8 +8,8 @@ public class HospitalRunner {
 
 	public static void main(String[] args) {
 
-		HospitalDTO dto1 = new HospitalDTO("Meghan", "circuit House, Shimoga", 40, 10);
-		HospitalDTO dto2 = new HospitalDTO("Government Hospital", null, 1, 0);
+		HospitalDTO dto1 = new HospitalDTO("Meghan", "Shimoga", 40, 10);
+		HospitalDTO dto2 = new HospitalDTO("Government Hospital", "Banglore", 10, 5 );
 		
 		HospitalService  hospitalService = new HospitalServiceImpl();
 		
@@ -30,6 +30,14 @@ public class HospitalRunner {
 		else {
 			System.err.println("Inputs being saved is : "+ result2);
 		}
+		
+		System.out.println("********************************");
+		
+		hospitalService.findByHospitalName("government hospital");
+		
+		System.out.println("**********************************");
+		
+		hospitalService.findByNameAndNoOfDoctors("Government Hospital", 5);
 	
 	}
 

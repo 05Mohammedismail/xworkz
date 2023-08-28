@@ -46,5 +46,25 @@ public class PlayerServiceImpl implements PlayerService {
 		return false;
 	}
 
+	@Override
+	public PlayerDTO findByName(String name) {
+		if(ValidateUtil.validateString(name)) {
+			System.out.println("Data is valid");
+			return playerRepository.findByName(name);
+		}
+		System.err.println("Data is invalid");
+		return null;
+	}
+
+	@Override
+	public PlayerDTO findByNameAndSport(String name, String SportName) {
+		if(ValidateUtil.validateString(name) && ValidateUtil.validateString(SportName)) {
+			System.out.println("Data is valid");
+			return playerRepository.findByNameAndSport(name, SportName);
+		}
+		System.err.println("Data is invalid");
+		return null;
+	}
+
 
 }

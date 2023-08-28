@@ -6,6 +6,7 @@ import com.xworkz.repository.movie.MovieRepositoryImpl;
 import com.xworkz.util.validate.ValidateUtil;
 
 public class MovieServiceImpl implements MovieService{
+	MovieRepository movieRepository = new MovieRepositoryImpl();
 
 	@Override
 	public boolean validate(MovieDTO dto) {
@@ -49,7 +50,6 @@ public class MovieServiceImpl implements MovieService{
 				return false;
 			}
 			
-			MovieRepository movieRepository = new MovieRepositoryImpl();
 			movieRepository.save(dto);
 			return true;
 		}
@@ -57,4 +57,25 @@ public class MovieServiceImpl implements MovieService{
 		return false;
 	}
 
+	@Override
+	public MovieDTO findByMovieName(String name) {
+		if(ValidateUtil.validateString(name)) {
+			System.out.println("Data is valid");
+		MovieDTO isFound = movieRepository.findByMovieName(name);
+			return isFound;
+		}
+		System.err.println("Data is invalid");
+		return null;
+	}
+
+	@Override
+	public MovieDTO findByMovieNameAndTicketCost(String name, int TicketCost) {
+		if(ValidateUtil.validateString(name) && ValidateUtil.validateNumber(TicketCost)) {
+			System.out.println("Data is valid");
+			MovieDTO isFound = movieRepository.findByMovieNameAndTicketCost(name, TicketCost);
+				return isFound;
+			}
+		System.err.println("Data is invalid");
+			return null;
+		}  
 }
